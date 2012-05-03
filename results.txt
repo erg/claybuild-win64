@@ -1,6 +1,6 @@
 [System]
 platform: Windows-7-6.1.7601-SP1
-version: jckarter/clay@4a0b992ae327d0ed41d7220b51bdb212d8d2474f (2012-04-19 12:23:41 -0700)
+version: jckarter/clay@9a9be666c3d31fa6f8514e17f9ccb115f88fce5f (2012-05-03 12:03:21 -0700)
 repository: https://github.com/jckarter/clay
 
 [SystemUname]
@@ -119,8 +119,8 @@ llvm\2: ok
 llvm\3: ok
 llvm\4: ok
 llvm\intrinsics\sse\1: ok
-math\complex: ok
-math\libm: ok
+math\complex: out.txt mismatch
+math\libm: compiler error
 math\native: ok
 memory\allocateArray: ok
 memory\copy: ok
@@ -312,10 +312,15 @@ variants\recursive\2: ok
 variants\subgraphassignment: ok
 variants\variantref: ok
 
+[Failed]
+math\complex: out.txt mismatch
+math\libm: compiler error
+
 [Summary]
-Passed: 290
+Passed: 288
 Disabled: 5
+Failed: 2
 
 # Test log written to testlog.txt
 
-time-taken-seconds: 386.640000
+time-taken-seconds: 823.438000
