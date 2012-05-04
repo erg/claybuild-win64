@@ -659,21 +659,41 @@ Failure: compiler error
 Error:
  
  ###############################
+ inline overload call(ptr:ExternalCodePointer[CC, false, [..In], [..Out]], ..args:A) =
+     ..callExternalCodePointer(ptr,
+         ..mapValues2((arg, T) => cCast(arg, T), #countValues(..A), ..args, ..In));
+ --------------------------------------^
  
- [when OS == Windows]
- overload oneArgFuncs(T) = array(T(abs),T(sqrt),T(floor),T(sin),
- ---------------------------------^
-                             T(cos),T(tan),T(asin),T(acos),T(atan),T(sinh),
-                             T(cosh),T(tanh),T(exp),T(log),T(log10));
+ [CC, ..In, ..Out]
  ###############################
- C:\clay-autobuild\test\math\libm\test.clay(37,33): error: no matching overload found
+ C:/clay-autobuild/build/compiler/src\../../../lib-clay\core\pointers\pointers.clay(259,38): error: no matching overload found
+     C:/clay-autobuild/build/compiler/src\../../../lib-clay\core\pointers\pointers.clay(253,0)
+         pattern "#F" did not match type "Static[Int32]" of argument 2
+     C:/clay-autobuild/build/compiler/src\../../../lib-clay\core\pointers\pointers.clay(250,0)
+         pattern "#Pointer[CChar]" did not match type "Static[Int32]" of argument 2
+     C:/clay-autobuild/build/compiler/src\../../../lib-clay\core\pointers\pointers.clay(247,0)
+         predicate "CCastable?(F, T)" failed
      79 universal overloads not shown (show with -full-match-errors option)
  
  compilation context: 
-     CodePointer[[Float32], [Float32]](Static[abs])
-   C:\clay-autobuild\test\math\libm\test.clay(37,33):
-     oneArgFuncs(Static[CodePointer[[Float32], [Float32]]])
-   C:\clay-autobuild\test\math\libm\test.clay(68,25):
+     cCast(Int64, Static[Int32])
+   C:/clay-autobuild/build/compiler/src\../../../lib-clay\core\pointers\pointers.clay(259,38):
+     ((arg, T) => cCast(arg, T))(Int64, Static[Int32])
+   C:/clay-autobuild/build/compiler/src\../../../lib-clay\core\values\values.clay(160,16):
+     mapValues2(Static[((arg, T) => cCast(arg, T))], Static[1], Int64, Static[Int32])
+   C:/clay-autobuild/build/compiler/src\../../../lib-clay\core\pointers\pointers.clay(259,20):
+     call(ExternalCodePointer[AttributeCCall, false, [Int32], [Int32]], Int64)
+   C:/clay-autobuild/build/compiler/src\../../../lib-clay\math\libm\libm.clay(23,39):
+     abs(Int64)
+   C:/clay-autobuild/build/compiler/src\../../../lib-clay\core\pointers\pointers.clay(285,21):
+     CodePointer[[Int64], [Int64]](Static[abs])
+   C:\clay-autobuild\test\math\libm\test.clay(44,25):
+     Array[CodePointer[[Int64], [Int64]], 1](CodePointer[[Int64], [Int64]])
+   C:/clay-autobuild/build/compiler/src\../../../lib-clay\core\arrays\arrays.clay(219,55):
+     array(CodePointer[[Int64], [Int64]])
+   C:\clay-autobuild\test\math\libm\test.clay(44,23):
+     evalFuncs(Array[CodePointer[[Int64], [Int64]], 1], Array[Int64, 7])
+   C:\clay-autobuild\test\math\libm\test.clay(75,13):
      main()
    C:/clay-autobuild/build/compiler/src\../../../lib-clay\core\system\system.clay(22,30):
      getExitCode()
