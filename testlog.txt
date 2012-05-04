@@ -653,13 +653,3 @@ Diff-Stdout:
  +1.#INF
  +nan
  +
-
-[math\libm]
-Failure: compiler error
-Error:
- LINK : warning LNK4044: unrecognized option '/lm'; ignored
- clayobj-fa5af25f.obj : error LNK2019: unresolved external symbol hypotf referenced in function core.operators.reserve_28_Vector_5B_Char_5D__2C__20_UInt64_29__20_clay
- clayobj-fa5af25f.obj : error LNK2019: unresolved external symbol hypot referenced in function core.operators.reserve_28_Vector_5B_Char_5D__2C__20_UInt64_29__20_clay
- test.exe : fatal error LNK1120: 2 unresolved externals
- 
- clang: error: linker command failed with exit code 1120 (use -v to see invocation)

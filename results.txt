@@ -1,6 +1,6 @@
 [System]
 platform: Windows-7-6.1.7601-SP1
-version: jckarter/clay@2ec74b9e6b836cc84421be8a3be5a87ab762ccd0 (2012-05-04 14:16:28 -0700)
+version: jckarter/clay@131f1aa02ced572054d1ca77a50074bd3ff9de80 (2012-05-04 15:59:20 -0700)
 repository: https://github.com/jckarter/clay
 
 [SystemUname]
@@ -120,7 +120,7 @@ llvm\3: ok
 llvm\4: ok
 llvm\intrinsics\sse\1: ok
 math\complex: out.txt mismatch
-math\libm: compiler error
+math\libm: ok
 math\native: ok
 memory\allocateArray: ok
 memory\copy: ok
@@ -314,13 +314,12 @@ variants\variantref: ok
 
 [Failed]
 math\complex: out.txt mismatch
-math\libm: compiler error
 
 [Summary]
-Passed: 288
+Passed: 289
 Disabled: 5
-Failed: 2
+Failed: 1
 
 # Test log written to testlog.txt
 
-time-taken-seconds: 1262.891000
+time-taken-seconds: 868.281000
