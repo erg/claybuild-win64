@@ -660,25 +660,20 @@ Error:
  
  ###############################
  
- inline cbrt(x:Double) = libc.cbrt(x);
- inline overload cbrt(x:Float) = libc.cbrtf(x);
- -------------------------------------^
- inline overload cbrt(x:LongDouble) = libc.cbrtl(x);
- 
+ [when OS == Windows]
+ overload oneArgFuncs(T) = array(T(abs),T(sqrt),T(floor),T(sin),
+ ---------------------------------^
+                             T(cos),T(tan),T(asin),T(acos),T(atan),T(sinh),
+                             T(cosh),T(tanh),T(exp),T(log),T(log10));
  ###############################
- C:/clay-autobuild/build/compiler/src\../../../lib-clay\math\libm\libm.clay(142,37): error: undefined name: cbrtf
+ C:\clay-autobuild\test\math\libm\test.clay(37,33): error: no matching overload found
+     79 universal overloads not shown (show with -full-match-errors option)
  
  compilation context: 
-     cbrt(Float32)
-   C:/clay-autobuild/build/compiler/src\../../../lib-clay\core\pointers\pointers.clay(285,21):
-     CodePointer[[Float32], [Float32]](Static[cbrt])
-   C:\clay-autobuild\test\math\libm\test.clay(32,46):
-     Array[CodePointer[[Float32], [Float32]], 26](CodePointer[[Float32], [Float32]], CodePointer[[Float32], [Float32]], CodePointer[[Float32], [Float32]], CodePointer[[Float32], [Float32]], CodePointer[[Float32], [Float32]], CodePointer[[Float32], [Float32]], CodePointer[[Float32], [Float32]], CodePointer[[Float32], [Float32]], CodePointer[[Float32], [Float32]], CodePointer[[Float32], [Float32]], CodePointer[[Float32], [Float32]], CodePointer[[Float32], [Float32]], CodePointer[[Float32], [Float32]], CodePointer[[Float32], [Float32]], CodePointer[[Float32], [Float32]], CodePointer[[Float32], [Float32]], CodePointer[[Float32], [Float32]], CodePointer[[Float32], [Float32]], CodePointer[[Float32], [Float32]], CodePointer[[Float32], [Float32]], CodePointer[[Float32], [Float32]], CodePointer[[Float32], [Float32]], CodePointer[[Float32], [Float32]], CodePointer[[Float32], [Float32]], CodePointer[[Float32], [Float32]], CodePointer[[Float32], [Float32]])
-   C:/clay-autobuild/build/compiler/src\../../../lib-clay\core\arrays\arrays.clay(219,55):
-     array(CodePointer[[Float32], [Float32]], CodePointer[[Float32], [Float32]], CodePointer[[Float32], [Float32]], CodePointer[[Float32], [Float32]], CodePointer[[Float32], [Float32]], CodePointer[[Float32], [Float32]], CodePointer[[Float32], [Float32]], CodePointer[[Float32], [Float32]], CodePointer[[Float32], [Float32]], CodePointer[[Float32], [Float32]], CodePointer[[Float32], [Float32]], CodePointer[[Float32], [Float32]], CodePointer[[Float32], [Float32]], CodePointer[[Float32], [Float32]], CodePointer[[Float32], [Float32]], CodePointer[[Float32], [Float32]], CodePointer[[Float32], [Float32]], CodePointer[[Float32], [Float32]], CodePointer[[Float32], [Float32]], CodePointer[[Float32], [Float32]], CodePointer[[Float32], [Float32]], CodePointer[[Float32], [Float32]], CodePointer[[Float32], [Float32]], CodePointer[[Float32], [Float32]], CodePointer[[Float32], [Float32]], CodePointer[[Float32], [Float32]])
-   C:\clay-autobuild\test\math\libm\test.clay(32,29):
-     evalFuncs(Array[CodePointer[[Float32], [Float32]], 26], Array[Float32, 19])
-   C:\clay-autobuild\test\math\libm\test.clay(72,17):
+     CodePointer[[Float32], [Float32]](Static[abs])
+   C:\clay-autobuild\test\math\libm\test.clay(37,33):
+     oneArgFuncs(Static[CodePointer[[Float32], [Float32]]])
+   C:\clay-autobuild\test\math\libm\test.clay(68,25):
      main()
    C:/clay-autobuild/build/compiler/src\../../../lib-clay\core\system\system.clay(22,30):
      getExitCode()
