@@ -1,6 +1,6 @@
 [System]
 platform: Windows-7-6.1.7601-SP1
-version: jckarter/clay@1b4101cb85e534408fefb6f3b7275f27eaa3e35c (2012-07-19 19:27:21 -0700)
+version: jckarter/clay@d80918751234755d431bf647e1c44ca8e6abc4fa (2012-07-21 15:44:22 -0700)
 repository: https://github.com/jckarter/clay
 
 [SystemUname]
@@ -29,6 +29,7 @@ byteorder: ok
 callbyname\arg: ok
 callbyname\fileLineColumn: ok
 characters\1: ok
+claydoc: ok
 codepointers\1: ok
 codepointers\2: ok
 codepointers\3: ok
@@ -314,9 +315,9 @@ variants\subgraphassignment: ok
 variants\variantref: ok
 
 [Summary]
-Passed: 291
+Passed: 292
 Disabled: 5
 
 # Test log written to testlog.txt
 
-time-taken-seconds: 245.625000
+time-taken-seconds: 179.640000
