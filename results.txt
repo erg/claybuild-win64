@@ -1,6 +1,6 @@
 [System]
 platform: Windows-7-6.1.7601-SP1
-version: jckarter/clay@5acc635e6646832319911b199788bb8957649d7c (2012-07-29 08:26:27 -0700)
+version: jckarter/clay@89d524946ac17dfd4b027e48fbf4c53ebc72f925 (2012-07-29 08:34:04 -0700)
 repository: https://github.com/jckarter/clay
 
 [SystemUname]
@@ -321,4 +321,4 @@ Disabled: 5
 
 # Test log written to testlog.txt
 
-time-taken-seconds: 182.610000
+time-taken-seconds: 182.828000
