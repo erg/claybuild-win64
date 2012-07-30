@@ -1,6 +1,6 @@
 [System]
 platform: Windows-7-6.1.7601-SP1
-version: jckarter/clay@b9601a7e1bc8c0a818bbe44245274a783ec19edb (2012-07-29 10:42:09 -0700)
+version: jckarter/clay@5862a15b0894f46b2b6dd750469834e089c9f547 (2012-07-30 09:18:50 -0700)
 repository: https://github.com/jckarter/clay
 
 [SystemUname]
@@ -244,6 +244,7 @@ strings: ok
 strings\encodings\utf8: ok
 strings\triplequoting: ok
 test\1: ok
+test\repr: ok
 time: ok
 tuples\1: ok
 tuples\emptytuple: ok
@@ -316,9 +317,9 @@ variants\subgraphassignment: ok
 variants\variantref: ok
 
 [Summary]
-Passed: 293
+Passed: 294
 Disabled: 5
 
 # Test log written to testlog.txt
 
-time-taken-seconds: 186.953000
+time-taken-seconds: 200.171000
