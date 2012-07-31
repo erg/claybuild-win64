@@ -1,6 +1,6 @@
 [System]
 platform: Windows-7-6.1.7601-SP1
-version: jckarter/clay@5862a15b0894f46b2b6dd750469834e089c9f547 (2012-07-30 09:18:50 -0700)
+version: jckarter/clay@f931ec424fb0b8d65a8d143b10475d5773909f0d (2012-07-31 09:08:39 -0700)
 repository: https://github.com/jckarter/clay
 
 [SystemUname]
@@ -138,6 +138,7 @@ modules\imports\collision2: ok
 modules\imports\disambiguated1: ok
 modules\imports\disambiguated2: ok
 modules\imports\disambiguated3: ok
+modules\imports\issue266: ok
 modules\imports\suggest: ok
 modules\introspection: ok
 modules\name: ok
@@ -317,9 +318,9 @@ variants\subgraphassignment: ok
 variants\variantref: ok
 
 [Summary]
-Passed: 294
+Passed: 295
 Disabled: 5
 
 # Test log written to testlog.txt
 
-time-taken-seconds: 200.171000
+time-taken-seconds: 193.527000
