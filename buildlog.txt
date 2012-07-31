@@ -1,3 +1,7 @@
+-- Could NOT find Subversion (missing:  Subversion_SVN_EXECUTABLE) 
+-- Configuring done
+-- Generating done
+-- Build files have been written to: C:/clay-autobuild/build
 [  4%] [32mBuilding CXX object compiler/src/CMakeFiles/clay.dir/analyzer.cpp.obj
 [0manalyzer.cpp
 C:\clay-autobuild\compiler\src\analyzer.cpp(553) : warning C4267: '+=' : conversion from 'size_t' to 'unsigned int', possible loss of data
