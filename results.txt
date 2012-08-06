@@ -1,6 +1,6 @@
 [System]
 platform: Windows-7-6.1.7601-SP1
-version: jckarter/clay@2ea425b9e6b8c3e2d7dd3fedd293cadc7cd5675b (2012-08-04 14:46:23 -0700)
+version: jckarter/clay@ec0c7154ca28c87fd50921d43d8de32e41e479de (2012-08-06 10:20:19 -0700)
 repository: https://github.com/jckarter/clay
 
 [SystemUname]
@@ -193,7 +193,6 @@ permissive: ok
 platform: ok
 pointers\indexing\1: ok
 printing\1: ok
-printing\2: ok
 printing\formatting: ok
 printing\int128: disabled
 printing\nan: ok
@@ -321,9 +320,9 @@ variants\subgraphassignment: ok
 variants\variantref: ok
 
 [Summary]
-Passed: 298
+Passed: 297
 Disabled: 5
 
 # Test log written to testlog.txt
 
-time-taken-seconds: 194.158000
+time-taken-seconds: 264.892000
