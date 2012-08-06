@@ -230,9 +230,9 @@ c:\clay-autobuild\compiler\src\clay.hpp(896) : warning C4267: 'argument' : conve
 c:\clay-autobuild\compiler\src\clay.hpp(896) : warning C4267: 'argument' : conversion from 'size_t' to 'int', possible loss of data
 [ 37%] [32mBuilding CXX object compiler/src/CMakeFiles/clay.dir/externals.cpp.obj
 [0mexternals.cpp
-C:\clay-autobuild\compiler\src\externals.cpp(350) : warning C4267: 'return' : conversion from 'size_t' to 'int', possible loss of data
-C:\clay-autobuild\compiler\src\externals.cpp(353) : warning C4267: 'return' : conversion from 'size_t' to 'int', possible loss of data
-C:\clay-autobuild\compiler\src\externals.cpp(362) : warning C4267: 'return' : conversion from 'size_t' to 'int', possible loss of data
+C:\clay-autobuild\compiler\src\externals.cpp(351) : warning C4267: 'return' : conversion from 'size_t' to 'int', possible loss of data
+C:\clay-autobuild\compiler\src\externals.cpp(354) : warning C4267: 'return' : conversion from 'size_t' to 'int', possible loss of data
+C:\clay-autobuild\compiler\src\externals.cpp(363) : warning C4267: 'return' : conversion from 'size_t' to 'int', possible loss of data
 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\INCLUDE\utility(163) : warning C4267: 'initializing' : conversion from 'size_t' to 'unsigned int', possible loss of data
         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\INCLUDE\utility(255) : see reference to function template instantiation 'std::_Pair_base<_Ty1,_Ty2>::_Pair_base<_Ty,llvm::Attribute::AttrConst>(_Other1 &&,_Other2 &&)' being compiled
         with
@@ -243,7 +243,7 @@ C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\INCLUDE\utility(163) : wa
             _Other1=unsigned __int64,
             _Other2=llvm::Attribute::AttrConst
         ]
-        C:\clay-autobuild\compiler\src\externals.cpp(47) : see reference to function template instantiation 'std::pair<_Ty1,_Ty2>::pair<unsigned __int64,llvm::Attribute::AttrConst>(std::pair<unsigned __int64,llvm::Attribute::AttrConst> &&)' being compiled
+        C:\clay-autobuild\compiler\src\externals.cpp(48) : see reference to function template instantiation 'std::pair<_Ty1,_Ty2>::pair<unsigned __int64,llvm::Attribute::AttrConst>(std::pair<unsigned __int64,llvm::Attribute::AttrConst> &&)' being compiled
         with
         [
             _Ty1=unsigned int,
