@@ -1,6 +1,6 @@
 [System]
 platform: Windows-7-6.1.7601-SP1
-version: jckarter/clay@7e228e1d5a65c8a2104e5862ebbc5c269a3c8cc2 (2012-08-06 14:14:58 -0700)
+version: jckarter/clay@cf0262f0418ee26bfde681ff6c6c8315cf558c79 (2012-08-06 17:38:54 -0700)
 repository: https://github.com/jckarter/clay
 
 [SystemUname]
@@ -223,6 +223,7 @@ sequences\force: ok
 sequences\group: ok
 sequences\multivalued: ok
 sequences\operators: ok
+sequences\overloadpriority: ok
 sequences\predicates: ok
 sequences\ranges: ok
 sequences\staticsized: ok
@@ -321,9 +322,9 @@ variants\subgraphassignment: ok
 variants\variantref: ok
 
 [Summary]
-Passed: 298
+Passed: 299
 Disabled: 5
 
 # Test log written to testlog.txt
 
-time-taken-seconds: 209.515000
+time-taken-seconds: 209.768000
