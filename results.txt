@@ -1,6 +1,6 @@
 [System]
 platform: Windows-7-6.1.7601-SP1
-version: jckarter/clay@90dc4af93dcedc46b50ad836ddef81ad796ff7e3 (2012-08-07 09:23:06 -0700)
+version: jckarter/clay@c844418a3f12d2240267e05c8a33ed987c4583dd (2012-08-07 16:40:11 -0700)
 repository: https://github.com/jckarter/clay
 
 [SystemUname]
@@ -45,6 +45,7 @@ computedrecords\2: ok
 computedrecords\custompredicate: ok
 computedrecords\customproperty: ok
 coordinates: ok
+crypto\digest\sha2: ok
 defaultarguments: ok
 deques: ok
 deques\memory: ok
@@ -228,7 +229,6 @@ sequences\predicates: ok
 sequences\ranges: ok
 sequences\staticsized: ok
 sequences\strict: ok
-sha2: ok
 shootout\insertionsort1: ok
 shootout\insertionsort2: ok
 shootout\mean: ok
@@ -327,4 +327,4 @@ Disabled: 5
 
 # Test log written to testlog.txt
 
-time-taken-seconds: 221.454000
+time-taken-seconds: 212.342000
