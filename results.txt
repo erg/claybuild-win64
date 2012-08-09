@@ -1,6 +1,6 @@
 [System]
 platform: Windows-7-6.1.7601-SP1
-version: jckarter/clay@e3364dd24bbb2a43f50284d7e19b5e24494a4bea (2012-08-08 15:02:36 -0700)
+version: jckarter/clay@52c4f6ae975b74e6e5c0165499794fcf7e7d35c3 (2012-08-09 07:07:16 -0700)
 repository: https://github.com/jckarter/clay
 
 [SystemUname]
@@ -159,6 +159,7 @@ multivalues\bindingmismatch\2: ok
 multivalues\bindingmismatch\3: ok
 multivalues\bindingmismatch\4: ok
 multivalues\bindingmismatch\5: ok
+numbers: ok
 numbers\conversion: ok
 numbers\literals\toolarge: ok
 numbers\literals\toolarge2: ok
@@ -323,9 +324,9 @@ variants\subgraphassignment: ok
 variants\variantref: ok
 
 [Summary]
-Passed: 300
+Passed: 301
 Disabled: 5
 
 # Test log written to testlog.txt
 
-time-taken-seconds: 222.375000
+time-taken-seconds: 225.845000
