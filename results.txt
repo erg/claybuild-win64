@@ -1,6 +1,6 @@
 [System]
 platform: Windows-7-6.1.7601-SP1
-version: jckarter/clay@4d068874b4822e2585e91028b332077cd8c697bb (2012-08-11 07:19:18 -0700)
+version: jckarter/clay@0cb24bee53eb566983366c164bc78a30eff9b563 (2012-08-11 10:34:54 -0400)
 repository: https://github.com/jckarter/clay
 
 [SystemUname]
@@ -46,6 +46,7 @@ computedrecords\2: ok
 computedrecords\custompredicate: ok
 computedrecords\customproperty: ok
 coordinates: ok
+crypto\digest\md5: ok
 crypto\digest\sha2: ok
 defaultarguments: ok
 deques: ok
@@ -325,9 +326,9 @@ variants\subgraphassignment: ok
 variants\variantref: ok
 
 [Summary]
-Passed: 302
+Passed: 303
 Disabled: 5
 
 # Test log written to testlog.txt
 
-time-taken-seconds: 229.813000
+time-taken-seconds: 232.438000
