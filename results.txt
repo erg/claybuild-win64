@@ -1,6 +1,6 @@
 [System]
 platform: Windows-7-6.1.7601-SP1
-version: jckarter/clay@e9927b797453ea1981e0642db51a2456ff70ef2b (2012-08-17 09:11:45 -0700)
+version: jckarter/clay@419f54286e031f625a95c232b343c54df5fb63c5 (2012-08-17 13:54:40 -0700)
 repository: https://github.com/jckarter/clay
 
 [SystemUname]
@@ -233,6 +233,7 @@ sequences\buffervector: ok
 sequences\concatenation: ok
 sequences\force: ok
 sequences\group: ok
+sequences\maybe: ok
 sequences\multivalued: ok
 sequences\operators: ok
 sequences\overloadpriority: ok
@@ -336,10 +337,10 @@ variants\variantref: ok
 io\temp: compiler error
 
 [Summary]
-Passed: 309
+Passed: 310
 Disabled: 5
 Failed: 1
 
 # Test log written to testlog.txt
 
-time-taken-seconds: 490.913000
+time-taken-seconds: 234.438000
