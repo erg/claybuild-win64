@@ -1,6 +1,6 @@
 [System]
 platform: Windows-7-6.1.7601-SP1
-version: jckarter/clay@30b4cae99c2f0df9e705f04e5953b2a7a63c425f (2012-08-17 08:53:18 -0700)
+version: jckarter/clay@e9927b797453ea1981e0642db51a2456ff70ef2b (2012-08-17 09:11:45 -0700)
 repository: https://github.com/jckarter/clay
 
 [SystemUname]
@@ -47,6 +47,8 @@ computedrecords\2: ok
 computedrecords\custompredicate: ok
 computedrecords\customproperty: ok
 coordinates: ok
+core\errors\staticassert\neg: ok
+core\errors\staticassert\pos: ok
 crypto\digest\md5: ok
 crypto\digest\sha2: ok
 defaultarguments: ok
@@ -106,6 +108,7 @@ io\sockets\addresses: ok
 io\sockets\connections: ok
 io\sockets\reading: ok
 io\sockets\valuesemantics: ok
+io\temp: compiler error
 keywordarguments: ok
 lambdas\alias\1: disabled
 lambdas\alias\2: disabled
@@ -196,6 +199,7 @@ parsing\calculator: ok
 parsing\combinators\generic: ok
 parsing\combinators\strings: ok
 patterns: ok
+patterns\arguments: ok
 permissive: ok
 platform: ok
 pointers\indexing\1: ok
@@ -328,10 +332,14 @@ variants\recursive\2: ok
 variants\subgraphassignment: ok
 variants\variantref: ok
 
+[Failed]
+io\temp: compiler error
+
 [Summary]
-Passed: 306
+Passed: 309
 Disabled: 5
+Failed: 1
 
 # Test log written to testlog.txt
 
-time-taken-seconds: 241.362000
+time-taken-seconds: 490.913000

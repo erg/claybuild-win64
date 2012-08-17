@@ -1,0 +1,65 @@
+
+[io\temp]
+Failure: compiler error
+Error:
+ 
+ ###############################
+ forceinline overload call(ptr:ExternalCodePointer[CC, false, [..In], [..Out]], ..args:A) =
+     ..callExternalCodePointer(ptr,
+         ..mapValues2((arg, T) => cCast(arg, T), #countValues(..A), ..args, ..In));
+ --------------------------------------^
+ 
+ [CC, ..In, ..Out]
+ ###############################
+ C:/clay-autobuild/build/compiler/src\../../../lib-clay\core\pointers\pointers.clay(231,38): error: no matching overload found
+     C:/clay-autobuild/build/compiler/src\../../../lib-clay\core\pointers\pointers.clay(225,0)
+         pattern "#F" did not match type "Static[UInt32]" of argument 2
+     C:/clay-autobuild/build/compiler/src\../../../lib-clay\core\pointers\pointers.clay(222,0)
+         pattern "#Pointer[CChar]" did not match type "Static[UInt32]" of argument 2
+     C:/clay-autobuild/build/compiler/src\../../../lib-clay\core\pointers\pointers.clay(219,0)
+         predicate "CCastable?(F, T)" failed
+     92 universal overloads not shown (show with -full-match-errors option)
+ 
+ compilation context: 
+     cCast(UInt64, Static[UInt32])
+   C:/clay-autobuild/build/compiler/src\../../../lib-clay\core\pointers\pointers.clay(231,38):
+     ((arg, T) => cCast(arg, T))(UInt64, Static[UInt32])
+   C:/clay-autobuild/build/compiler/src\../../../lib-clay\core\values\values.clay(163,16):
+     mapValues2(Static[((arg, T) => cCast(arg, T))], Static[2], UInt64, Pointer[Int8], Static[UInt32], Static[Pointer[Int8]])
+   C:/clay-autobuild/build/compiler/src\../../../lib-clay\core\pointers\pointers.clay(231,20):
+     call(ExternalCodePointer[AttributeStdCall, false, [UInt32, Pointer[Int8]], [UInt32]], UInt64, Pointer[Int8])
+   C:/clay-autobuild/build/compiler/src\../../../lib-clay\io\temp\platform\platform.windows.clay(10,24):
+     tempDirectory()
+   C:\clay-autobuild\test\io\temp\test.clay(9,79):
+     <lambda C:\clay-autobuild\test\io\temp\test.clay(8,34)>(TestStatus)
+   C:/clay-autobuild/build/compiler/src\../../../lib-clay\core\statics\statics.clay(53,15):
+     call(Static[<lambda C:\clay-autobuild\test\io\temp\test.clay(8,34)>], TestStatus)
+   C:/clay-autobuild/build/compiler/src\../../../lib-clay\lambdas\lambdas.clay(83,33):
+     FunctionBody[[TestStatus], []](Static[<lambda C:\clay-autobuild\test\io\temp\test.clay(8,34)>])
+   C:/clay-autobuild/build/compiler/src\../../../lib-clay\lambdas\lambdas.clay(22,52):
+     new(FunctionBody[[TestStatus], []])
+   C:/clay-autobuild/build/compiler/src\../../../lib-clay\lambdas\lambdas.clay(22,31):
+     Function[[TestStatus], []](SharedPointer[FunctionBody[[TestStatus], []]])
+   C:/clay-autobuild/build/compiler/src\../../../lib-clay\lambdas\lambdas.clay(22,27):
+     Function[[TestStatus], []](Static[<lambda C:\clay-autobuild\test\io\temp\test.clay(8,34)>])
+   C:/clay-autobuild/build/compiler/src\../../../lib-clay\test\test.clay(29,71):
+     TestCase(Static["tempDirectory"], Function[[TestStatus], []], Bool)
+   C:/clay-autobuild/build/compiler/src\../../../lib-clay\test\test.clay(29,38):
+     TestCase(Static["tempDirectory"], Static[<lambda C:\clay-autobuild\test\io\temp\test.clay(8,34)>])
+   C:\clay-autobuild\test\io\temp\test.clay(8,16):
+     Array[TestCase, 1](TestCase)
+   C:/clay-autobuild/build/compiler/src\../../../lib-clay\core\arrays\arrays.clay(205,55):
+     array(TestCase)
+   C:\clay-autobuild\test\io\temp\test.clay(7,30):
+     TestSuite(Static["io.temp"], Array[TestCase, 1])
+   C:\clay-autobuild\test\io\temp\test.clay(7,13):
+     testMain(TestSuite)
+   C:\clay-autobuild\test\io\temp\test.clay(6,17):
+     main()
+   C:/clay-autobuild/build/compiler/src\../../../lib-clay\core\system\system.clay(22,30):
+     getExitCode(Int32)
+   C:/clay-autobuild/build/compiler/src\../../../lib-clay\core\system\system.clay(22,26):
+     runMain(Int32, Pointer[Pointer[Int8]], Static[main])
+   C:/clay-autobuild/build/compiler/src\../../../lib-clay\core\system\system.clay(32,13):
+     callMain(Static[main], Int32, Pointer[Pointer[Int8]])
+     external main
