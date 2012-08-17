@@ -1,6 +1,6 @@
 [System]
 platform: Windows-7-6.1.7601-SP1
-version: jckarter/clay@419f54286e031f625a95c232b343c54df5fb63c5 (2012-08-17 13:54:40 -0700)
+version: jckarter/clay@fd306bfb270098e0f666d386fb8b3f51f0e34da4 (2012-08-17 14:00:50 -0700)
 repository: https://github.com/jckarter/clay
 
 [SystemUname]
@@ -103,11 +103,16 @@ interfaces\constructors\3: ok
 interfaces\outputmismatch\1: ok
 interfaces\outputmismatch\2: ok
 io\directories: ok
+io\files\raw: ok
 io\paths: ok
 io\sockets\addresses: ok
 io\sockets\connections: ok
 io\sockets\reading: ok
 io\sockets\valuesemantics: ok
+io\streams\ascollections: ok
+io\streams\buffered: ok
+io\streams\bytevector: ok
+io\streams\memory: ok
 io\temp: compiler error
 keywordarguments: ok
 lambdas\alias\1: disabled
@@ -208,7 +213,7 @@ printing\formatting: ok
 printing\int128: disabled
 printing\nan: ok
 printing\observe: ok
-printing\repr: ok
+printing\repr: compiler error
 privateimports: ok
 queues: ok
 random: ok
@@ -335,12 +340,13 @@ variants\variantref: ok
 
 [Failed]
 io\temp: compiler error
+printing\repr: compiler error
 
 [Summary]
-Passed: 310
+Passed: 314
 Disabled: 5
-Failed: 1
+Failed: 2
 
 # Test log written to testlog.txt
 
-time-taken-seconds: 234.438000
+time-taken-seconds: 251.188000

@@ -63,3 +63,56 @@ Error:
    C:/clay-autobuild/build/compiler/src\../../../lib-clay\core\system\system.clay(32,13):
      callMain(Static[main], Int32, Pointer[Pointer[Int8]])
      external main
+
+[printing\repr]
+Failure: compiler error
+Error:
+ 
+ ###############################
+ CStringRef("string ref")
+ ----------^
+ ###############################
+ <eval C:\clay-autobuild\test\printing\repr\test.clay(14,41)>(1,10): error: no matching overload found
+     C:/clay-autobuild/build/compiler/src\../../../lib-clay\strings\strings.clay(78,0)
+         pattern "String" did not match type "Static["string ref"]" of argument 1
+     C:/clay-autobuild/build/compiler/src\../../../lib-clay\core\cstringrefs\cstringrefs.clay(18,0)
+         pattern "Pointer[T]" did not match type "Static["string ref"]" of argument 1
+     92 universal overloads not shown (show with -full-match-errors option)
+ 
+ compilation context: 
+     CStringRef(Static["string ref"])
+   <eval C:\clay-autobuild\test\printing\repr\test.clay(14,41)>(1,10):
+     testWithEval(TestStatus, Static["CStringRef(\"string ref\")"])
+   C:\clay-autobuild\test\printing\repr\test.clay(116,24):
+     <lambda C:\clay-autobuild\test\printing\repr\test.clay(112,28)>(TestStatus)
+   C:/clay-autobuild/build/compiler/src\../../../lib-clay\core\statics\statics.clay(53,15):
+     call(Static[<lambda C:\clay-autobuild\test\printing\repr\test.clay(112,28)>], TestStatus)
+   C:/clay-autobuild/build/compiler/src\../../../lib-clay\lambdas\lambdas.clay(83,33):
+     FunctionBody[[TestStatus], []](Static[<lambda C:\clay-autobuild\test\printing\repr\test.clay(112,28)>])
+   C:/clay-autobuild/build/compiler/src\../../../lib-clay\lambdas\lambdas.clay(22,52):
+     new(FunctionBody[[TestStatus], []])
+   C:/clay-autobuild/build/compiler/src\../../../lib-clay\lambdas\lambdas.clay(22,31):
+     Function[[TestStatus], []](SharedPointer[FunctionBody[[TestStatus], []]])
+   C:/clay-autobuild/build/compiler/src\../../../lib-clay\lambdas\lambdas.clay(22,27):
+     Function[[TestStatus], []](Static[<lambda C:\clay-autobuild\test\printing\repr\test.clay(112,28)>])
+   C:/clay-autobuild/build/compiler/src\../../../lib-clay\test\test.clay(29,71):
+     TestCase(Static["strings"], Function[[TestStatus], []], Bool)
+   C:/clay-autobuild/build/compiler/src\../../../lib-clay\test\test.clay(29,38):
+     TestCase(Static["strings"], Static[<lambda C:\clay-autobuild\test\printing\repr\test.clay(112,28)>])
+   C:\clay-autobuild\test\printing\repr\test.clay(112,16):
+     Array[TestCase, 7](TestCase, TestCase, TestCase, TestCase, TestCase, TestCase, TestCase)
+   C:/clay-autobuild/build/compiler/src\../../../lib-clay\core\arrays\arrays.clay(205,55):
+     array(TestCase, TestCase, TestCase, TestCase, TestCase, TestCase, TestCase)
+   C:\clay-autobuild\test\printing\repr\test.clay(18,27):
+     TestSuite(Static["repr"], Array[TestCase, 7])
+   C:\clay-autobuild\test\printing\repr\test.clay(18,13):
+     testMain(TestSuite)
+   C:\clay-autobuild\test\printing\repr\test.clay(17,17):
+     main()
+   C:/clay-autobuild/build/compiler/src\../../../lib-clay\core\system\system.clay(22,30):
+     getExitCode(Int32)
+   C:/clay-autobuild/build/compiler/src\../../../lib-clay\core\system\system.clay(22,26):
+     runMain(Int32, Pointer[Pointer[Int8]], Static[main])
+   C:/clay-autobuild/build/compiler/src\../../../lib-clay\core\system\system.clay(32,13):
+     callMain(Static[main], Int32, Pointer[Pointer[Int8]])
+     external main
