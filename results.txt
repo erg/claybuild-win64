@@ -1,6 +1,6 @@
 [System]
 platform: Windows-7-6.1.7601-SP1
-version: jckarter/clay@a6fe6355627ba850161da70cbb3095d4d3ad1cc5 (2012-08-18 13:51:56 -0700)
+version: jckarter/clay@0892d3c2a23147e330219f48d6441bf619cb27e4 (2012-08-18 14:59:37 -0700)
 repository: https://github.com/jckarter/clay
 
 [SystemUname]
@@ -113,7 +113,7 @@ io\streams\ascollections: ok
 io\streams\buffered: ok
 io\streams\bytevector: ok
 io\streams\memory: ok
-io\temp: compiler error
+io\temp: ok
 keywordarguments: ok
 lambdas\alias\1: disabled
 lambdas\alias\2: disabled
@@ -339,14 +339,10 @@ variants\recursive\2: ok
 variants\subgraphassignment: ok
 variants\variantref: ok
 
-[Failed]
-io\temp: compiler error
-
 [Summary]
-Passed: 316
+Passed: 317
 Disabled: 5
-Failed: 1
 
 # Test log written to testlog.txt
 
-time-taken-seconds: 260.796000
+time-taken-seconds: 262.156000
