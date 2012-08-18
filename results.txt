@@ -1,6 +1,6 @@
 [System]
 platform: Windows-7-6.1.7601-SP1
-version: jckarter/clay@7a82aee33a8512ab0c94153d56d6c1e7db805c57 (2012-08-18 09:45:32 -0700)
+version: jckarter/clay@a6fe6355627ba850161da70cbb3095d4d3ad1cc5 (2012-08-18 13:51:56 -0700)
 repository: https://github.com/jckarter/clay
 
 [SystemUname]
@@ -39,7 +39,7 @@ codepointers\30: ok
 codepointers\31: ok
 codepointers\32: ok
 commandline\1: ok
-commandline\dispatch: compiler error
+commandline\dispatch: ok
 commandline\options: ok
 comparators: ok
 computedrecords\1: ok
@@ -55,7 +55,7 @@ defaultarguments: ok
 deques: ok
 deques\memory: ok
 destructors: ok
-dispatch: compiler error
+dispatch: ok
 enums\predicates: ok
 eval\expr: ok
 eval\statements: ok
@@ -70,8 +70,8 @@ exceptions\finally: ok
 exceptions\finally\goto: ok
 exceptions\lambdas: ok
 exceptions\onerror: ok
-exceptions\vectors: compiler error
-externals: compiler error
+exceptions\vectors: ok
+externals: ok
 externals\abi\common: ok
 externals\ccast: ok
 externals\makeexternalcodepointer: ok
@@ -81,7 +81,7 @@ fileio\27: ok
 fileio\28: ok
 fileio\29: ok
 flags: ok
-floats: compiler error
+floats: ok
 floats\literals: ok
 floats\parts: ok
 getoverload: ok
@@ -171,15 +171,15 @@ multivalues\bindingmismatch\3: ok
 multivalues\bindingmismatch\4: ok
 multivalues\bindingmismatch\5: ok
 numbers: ok
-numbers\conversion: compiler error
+numbers\conversion: ok
 numbers\literals\toolarge: ok
 numbers\literals\toolarge2: ok
 numbers\octal: ok
 numbers\overflow: ok
-numbers\parser\1: compiler error
-numbers\parser\2: compiler error
-numbers\parser\3: compiler error
-numbers\parser\4: compiler error
+numbers\parser\1: ok
+numbers\parser\2: ok
+numbers\parser\3: ok
+numbers\parser\4: ok
 numbers\quotient: ok
 operators\bitwise: ok
 operators\comparison: ok
@@ -199,9 +199,9 @@ paged\35: ok
 paged\36: ok
 paged\37: ok
 paged\38: ok
-parsing: compiler error
-parsing\calculator: compiler error
-parsing\combinators\generic: compiler error
+parsing: ok
+parsing\calculator: ok
+parsing\combinators\generic: ok
 parsing\combinators\strings: ok
 patterns: ok
 patterns\arguments: ok
@@ -214,7 +214,7 @@ printing\hideioerror: ok
 printing\int128: disabled
 printing\nan: ok
 printing\observe: ok
-printing\repr: compiler error
+printing\repr: ok
 privateimports: ok
 queues: ok
 random: ok
@@ -299,7 +299,7 @@ uncategorized\34: ok
 uncategorized\39: ok
 uncategorized\4: ok
 uncategorized\40: ok
-uncategorized\41: compiler error
+uncategorized\41: ok
 uncategorized\42: ok
 uncategorized\44: ok
 uncategorized\45: ok
@@ -340,28 +340,13 @@ variants\subgraphassignment: ok
 variants\variantref: ok
 
 [Failed]
-commandline\dispatch: compiler error
-dispatch: compiler error
-exceptions\vectors: compiler error
-externals: compiler error
-floats: compiler error
 io\temp: compiler error
-numbers\conversion: compiler error
-numbers\parser\1: compiler error
-numbers\parser\2: compiler error
-numbers\parser\3: compiler error
-numbers\parser\4: compiler error
-parsing: compiler error
-parsing\calculator: compiler error
-parsing\combinators\generic: compiler error
-printing\repr: compiler error
-uncategorized\41: compiler error
 
 [Summary]
-Passed: 301
+Passed: 316
 Disabled: 5
-Failed: 16
+Failed: 1
 
 # Test log written to testlog.txt
 
-time-taken-seconds: 251.219000
+time-taken-seconds: 260.796000
