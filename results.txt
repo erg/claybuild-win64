@@ -1,6 +1,6 @@
 [System]
 platform: Windows-7-6.1.7601-SP1
-version: jckarter/clay@9a38d57df3327931f5f5de903adb09e02733cecd (2012-08-19 13:10:38 -0700)
+version: jckarter/clay@8e7748adef88b9027542b77e81cc7b222a9a8f70 (2012-08-19 14:24:14 -0700)
 repository: https://github.com/jckarter/clay
 
 [SystemUname]
@@ -23,6 +23,7 @@ algorithms\sorting: ok
 algorithms\strings: ok
 any: ok
 arrays: ok
+arrays\arrayref: ok
 arrays\indexing\1: ok
 atomic\primitives: ok
 bindings\ref\1: ok
@@ -341,9 +342,9 @@ variants\subgraphassignment: ok
 variants\variantref: ok
 
 [Summary]
-Passed: 318
+Passed: 319
 Disabled: 5
 
 # Test log written to testlog.txt
 
-time-taken-seconds: 268.219000
+time-taken-seconds: 267.484000
