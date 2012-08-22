@@ -1,6 +1,6 @@
 [System]
 platform: Windows-7-6.1.7601-SP1
-version: jckarter/clay@5bc97ffae8fe2c69cfdcd49eab28e9fa5dad21e9 (2012-08-20 12:18:53 -0700)
+version: jckarter/clay@54ef036d7447542586226e94a2b06f70dd9ba786 (2012-08-21 17:49:14 -0700)
 repository: https://github.com/jckarter/clay
 
 [SystemUname]
@@ -279,7 +279,7 @@ time: ok
 tuples\1: ok
 tuples\emptytuple: ok
 tuples\single\1: ok
-tuples\single\2: disabled
+tuples\single\2: ok
 tuples\staticindexing: ok
 tuples\types: ok
 twohash: ok
@@ -347,9 +347,9 @@ variants\subgraphassignment: ok
 variants\variantref: ok
 
 [Summary]
-Passed: 321
-Disabled: 5
+Passed: 322
+Disabled: 4
 
 # Test log written to testlog.txt
 
-time-taken-seconds: 299.891000
+time-taken-seconds: 302.640000
