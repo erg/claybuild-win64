@@ -1,6 +1,6 @@
 [System]
 platform: Windows-7-6.1.7601-SP1
-version: jckarter/clay@d63d7ec241006db4c726ee189d44e312565c3228 (2012-08-22 06:25:30 -0700)
+version: jckarter/clay@8be3ec667badfdc2565946785c3e811a6c69d6f8 (2012-08-25 14:10:46 -0700)
 repository: https://github.com/jckarter/clay
 
 [SystemUname]
@@ -53,6 +53,7 @@ computedrecords\customproperty: ok
 coordinates: ok
 core\errors\staticassert\neg: ok
 core\errors\staticassert\pos: ok
+core\platform: ok
 core\stringrefs: ok
 crypto\digest\md5: ok
 crypto\digest\sha2: ok
@@ -213,7 +214,6 @@ parsing\combinators\strings: ok
 patterns: ok
 patterns\arguments: ok
 permissive: ok
-platform: ok
 pointers\indexing\1: ok
 printing\1: ok
 printing\formatting: ok
@@ -352,4 +352,4 @@ Disabled: 4
 
 # Test log written to testlog.txt
 
-time-taken-seconds: 302.094000
+time-taken-seconds: 302.688000
