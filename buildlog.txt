@@ -1,3 +1,7 @@
+-- Could NOT find Subversion (missing:  Subversion_SVN_EXECUTABLE) 
+-- Configuring done
+-- Generating done
+-- Build files have been written to: C:/clay-autobuild/build
 [  4%] [32mBuilding CXX object compiler/src/CMakeFiles/clay.dir/analyzer.cpp.obj
 [0manalyzer.cpp
 C:\clay-autobuild\compiler\src\analyzer.cpp(560) : warning C4267: '+=' : conversion from 'size_t' to 'unsigned int', possible loss of data
@@ -13,50 +17,50 @@ C:\clay-autobuild\compiler\src\analyzer.cpp(1487) : warning C4267: 'argument' : 
 C:\clay-autobuild\compiler\src\analyzer.cpp(1487) : warning C4267: 'argument' : conversion from 'size_t' to 'int', possible loss of data
 C:\clay-autobuild\compiler\src\analyzer.cpp(1498) : warning C4267: 'initializing' : conversion from 'size_t' to 'unsigned int', possible loss of data
 C:\clay-autobuild\compiler\src\analyzer.cpp(1656) : warning C4267: 'argument' : conversion from 'size_t' to 'int', possible loss of data
-C:\clay-autobuild\compiler\src\analyzer.cpp(2271) : warning C4267: 'argument' : conversion from 'size_t' to 'unsigned int', possible loss of data
-C:\clay-autobuild\compiler\src\analyzer.cpp(2319) : warning C4267: 'argument' : conversion from 'size_t' to 'unsigned int', possible loss of data
-C:\clay-autobuild\compiler\src\analyzer.cpp(2325) : warning C4267: 'argument' : conversion from 'size_t' to 'int', possible loss of data
-C:\clay-autobuild\compiler\src\analyzer.cpp(2325) : warning C4267: 'argument' : conversion from 'size_t' to 'int', possible loss of data
-C:\clay-autobuild\compiler\src\analyzer.cpp(2328) : warning C4267: 'argument' : conversion from 'size_t' to 'int', possible loss of data
-C:\clay-autobuild\compiler\src\analyzer.cpp(2328) : warning C4267: 'argument' : conversion from 'size_t' to 'int', possible loss of data
-C:\clay-autobuild\compiler\src\analyzer.cpp(2343) : warning C4267: 'initializing' : conversion from 'size_t' to 'unsigned int', possible loss of data
-C:\clay-autobuild\compiler\src\analyzer.cpp(2356) : warning C4267: 'argument' : conversion from 'size_t' to 'unsigned int', possible loss of data
-C:\clay-autobuild\compiler\src\analyzer.cpp(2438) : warning C4267: 'argument' : conversion from 'size_t' to 'int', possible loss of data
-C:\clay-autobuild\compiler\src\analyzer.cpp(2438) : warning C4267: 'argument' : conversion from 'size_t' to 'int', possible loss of data
-C:\clay-autobuild\compiler\src\analyzer.cpp(2439) : warning C4267: 'argument' : conversion from 'size_t' to 'unsigned int', possible loss of data
-C:\clay-autobuild\compiler\src\analyzer.cpp(2441) : warning C4267: 'argument' : conversion from 'size_t' to 'unsigned int', possible loss of data
-C:\clay-autobuild\compiler\src\analyzer.cpp(2451) : warning C4267: 'argument' : conversion from 'size_t' to 'unsigned int', possible loss of data
-C:\clay-autobuild\compiler\src\analyzer.cpp(2454) : warning C4267: 'argument' : conversion from 'size_t' to 'unsigned int', possible loss of data
-C:\clay-autobuild\compiler\src\analyzer.cpp(2458) : warning C4267: 'initializing' : conversion from 'size_t' to 'unsigned int', possible loss of data
-C:\clay-autobuild\compiler\src\analyzer.cpp(2712) : warning C4267: 'argument' : conversion from 'size_t' to 'int', possible loss of data
-C:\clay-autobuild\compiler\src\analyzer.cpp(3038) : warning C4267: 'argument' : conversion from 'size_t' to 'unsigned int', possible loss of data
-C:\clay-autobuild\compiler\src\analyzer.cpp(3045) : warning C4267: 'argument' : conversion from 'size_t' to 'unsigned int', possible loss of data
-C:\clay-autobuild\compiler\src\analyzer.cpp(3047) : warning C4267: 'argument' : conversion from 'size_t' to 'unsigned int', possible loss of data
-C:\clay-autobuild\compiler\src\analyzer.cpp(3057) : warning C4267: 'argument' : conversion from 'size_t' to 'unsigned int', possible loss of data
-C:\clay-autobuild\compiler\src\analyzer.cpp(3060) : warning C4267: 'argument' : conversion from 'size_t' to 'unsigned int', possible loss of data
+C:\clay-autobuild\compiler\src\analyzer.cpp(2272) : warning C4267: 'argument' : conversion from 'size_t' to 'unsigned int', possible loss of data
+C:\clay-autobuild\compiler\src\analyzer.cpp(2320) : warning C4267: 'argument' : conversion from 'size_t' to 'unsigned int', possible loss of data
+C:\clay-autobuild\compiler\src\analyzer.cpp(2326) : warning C4267: 'argument' : conversion from 'size_t' to 'int', possible loss of data
+C:\clay-autobuild\compiler\src\analyzer.cpp(2326) : warning C4267: 'argument' : conversion from 'size_t' to 'int', possible loss of data
+C:\clay-autobuild\compiler\src\analyzer.cpp(2329) : warning C4267: 'argument' : conversion from 'size_t' to 'int', possible loss of data
+C:\clay-autobuild\compiler\src\analyzer.cpp(2329) : warning C4267: 'argument' : conversion from 'size_t' to 'int', possible loss of data
+C:\clay-autobuild\compiler\src\analyzer.cpp(2344) : warning C4267: 'initializing' : conversion from 'size_t' to 'unsigned int', possible loss of data
+C:\clay-autobuild\compiler\src\analyzer.cpp(2357) : warning C4267: 'argument' : conversion from 'size_t' to 'unsigned int', possible loss of data
+C:\clay-autobuild\compiler\src\analyzer.cpp(2443) : warning C4267: 'argument' : conversion from 'size_t' to 'int', possible loss of data
+C:\clay-autobuild\compiler\src\analyzer.cpp(2443) : warning C4267: 'argument' : conversion from 'size_t' to 'int', possible loss of data
+C:\clay-autobuild\compiler\src\analyzer.cpp(2444) : warning C4267: 'argument' : conversion from 'size_t' to 'unsigned int', possible loss of data
+C:\clay-autobuild\compiler\src\analyzer.cpp(2446) : warning C4267: 'argument' : conversion from 'size_t' to 'unsigned int', possible loss of data
+C:\clay-autobuild\compiler\src\analyzer.cpp(2456) : warning C4267: 'argument' : conversion from 'size_t' to 'unsigned int', possible loss of data
+C:\clay-autobuild\compiler\src\analyzer.cpp(2459) : warning C4267: 'argument' : conversion from 'size_t' to 'unsigned int', possible loss of data
+C:\clay-autobuild\compiler\src\analyzer.cpp(2463) : warning C4267: 'initializing' : conversion from 'size_t' to 'unsigned int', possible loss of data
+C:\clay-autobuild\compiler\src\analyzer.cpp(2717) : warning C4267: 'argument' : conversion from 'size_t' to 'int', possible loss of data
+C:\clay-autobuild\compiler\src\analyzer.cpp(3043) : warning C4267: 'argument' : conversion from 'size_t' to 'unsigned int', possible loss of data
+C:\clay-autobuild\compiler\src\analyzer.cpp(3050) : warning C4267: 'argument' : conversion from 'size_t' to 'unsigned int', possible loss of data
+C:\clay-autobuild\compiler\src\analyzer.cpp(3052) : warning C4267: 'argument' : conversion from 'size_t' to 'unsigned int', possible loss of data
+C:\clay-autobuild\compiler\src\analyzer.cpp(3062) : warning C4267: 'argument' : conversion from 'size_t' to 'unsigned int', possible loss of data
 C:\clay-autobuild\compiler\src\analyzer.cpp(3065) : warning C4267: 'argument' : conversion from 'size_t' to 'unsigned int', possible loss of data
-C:\clay-autobuild\compiler\src\analyzer.cpp(3209) : warning C4267: 'argument' : conversion from 'size_t' to 'int', possible loss of data
-C:\clay-autobuild\compiler\src\analyzer.cpp(3216) : warning C4267: 'argument' : conversion from 'size_t' to 'unsigned int', possible loss of data
-C:\clay-autobuild\compiler\src\analyzer.cpp(3221) : warning C4267: 'argument' : conversion from 'size_t' to 'int', possible loss of data
-C:\clay-autobuild\compiler\src\analyzer.cpp(3232) : warning C4267: 'argument' : conversion from 'size_t' to 'unsigned int', possible loss of data
-C:\clay-autobuild\compiler\src\analyzer.cpp(3239) : warning C4267: 'argument' : conversion from 'size_t' to 'int', possible loss of data
-C:\clay-autobuild\compiler\src\analyzer.cpp(3248) : warning C4267: 'argument' : conversion from 'size_t' to 'unsigned int', possible loss of data
-C:\clay-autobuild\compiler\src\analyzer.cpp(3254) : warning C4267: 'argument' : conversion from 'size_t' to 'int', possible loss of data
-C:\clay-autobuild\compiler\src\analyzer.cpp(3263) : warning C4267: 'argument' : conversion from 'size_t' to 'unsigned int', possible loss of data
-c:\clay-autobuild\compiler\src\clay.hpp(896) : warning C4267: 'argument' : conversion from 'size_t' to 'int', possible loss of data
-        C:\clay-autobuild\compiler\src\analyzer.cpp(2403) : see reference to function template instantiation 'void clay::ensureArity<clay::FormalArgPtr>(const std::vector<_Ty> &,size_t)' being compiled
+C:\clay-autobuild\compiler\src\analyzer.cpp(3070) : warning C4267: 'argument' : conversion from 'size_t' to 'unsigned int', possible loss of data
+C:\clay-autobuild\compiler\src\analyzer.cpp(3214) : warning C4267: 'argument' : conversion from 'size_t' to 'int', possible loss of data
+C:\clay-autobuild\compiler\src\analyzer.cpp(3221) : warning C4267: 'argument' : conversion from 'size_t' to 'unsigned int', possible loss of data
+C:\clay-autobuild\compiler\src\analyzer.cpp(3226) : warning C4267: 'argument' : conversion from 'size_t' to 'int', possible loss of data
+C:\clay-autobuild\compiler\src\analyzer.cpp(3237) : warning C4267: 'argument' : conversion from 'size_t' to 'unsigned int', possible loss of data
+C:\clay-autobuild\compiler\src\analyzer.cpp(3244) : warning C4267: 'argument' : conversion from 'size_t' to 'int', possible loss of data
+C:\clay-autobuild\compiler\src\analyzer.cpp(3253) : warning C4267: 'argument' : conversion from 'size_t' to 'unsigned int', possible loss of data
+C:\clay-autobuild\compiler\src\analyzer.cpp(3259) : warning C4267: 'argument' : conversion from 'size_t' to 'int', possible loss of data
+C:\clay-autobuild\compiler\src\analyzer.cpp(3268) : warning C4267: 'argument' : conversion from 'size_t' to 'unsigned int', possible loss of data
+c:\clay-autobuild\compiler\src\clay.hpp(900) : warning C4267: 'argument' : conversion from 'size_t' to 'int', possible loss of data
+        C:\clay-autobuild\compiler\src\analyzer.cpp(2408) : see reference to function template instantiation 'void clay::ensureArity<clay::FormalArgPtr>(const std::vector<_Ty> &,size_t)' being compiled
         with
         [
             _Ty=clay::FormalArgPtr
         ]
-c:\clay-autobuild\compiler\src\clay.hpp(896) : warning C4267: 'argument' : conversion from 'size_t' to 'int', possible loss of data
-c:\clay-autobuild\compiler\src\clay.hpp(896) : warning C4267: 'argument' : conversion from 'size_t' to 'int', possible loss of data
-        C:\clay-autobuild\compiler\src\analyzer.cpp(2404) : see reference to function template instantiation 'void clay::ensureArity<clay::ExprPtr>(const std::vector<_Ty> &,size_t)' being compiled
+c:\clay-autobuild\compiler\src\clay.hpp(900) : warning C4267: 'argument' : conversion from 'size_t' to 'int', possible loss of data
+c:\clay-autobuild\compiler\src\clay.hpp(900) : warning C4267: 'argument' : conversion from 'size_t' to 'int', possible loss of data
+        C:\clay-autobuild\compiler\src\analyzer.cpp(2409) : see reference to function template instantiation 'void clay::ensureArity<clay::ExprPtr>(const std::vector<_Ty> &,size_t)' being compiled
         with
         [
             _Ty=clay::ExprPtr
         ]
-c:\clay-autobuild\compiler\src\clay.hpp(896) : warning C4267: 'argument' : conversion from 'size_t' to 'int', possible loss of data
+c:\clay-autobuild\compiler\src\clay.hpp(900) : warning C4267: 'argument' : conversion from 'size_t' to 'int', possible loss of data
 [  8%] [32mBuilding CXX object compiler/src/CMakeFiles/clay.dir/clone.cpp.obj
 [0mclone.cpp
 [ 12%] [32mBuilding CXX object compiler/src/CMakeFiles/clay.dir/codegen.cpp.obj
@@ -138,20 +142,20 @@ C:\clay-autobuild\compiler\src\codegen.cpp(6495) : warning C4267: 'argument' : c
 C:\clay-autobuild\compiler\src\codegen.cpp(6511) : warning C4267: 'argument' : conversion from 'size_t' to 'int', possible loss of data
 C:\clay-autobuild\compiler\src\codegen.cpp(6518) : warning C4267: 'initializing' : conversion from 'size_t' to 'unsigned int', possible loss of data
 C:\clay-autobuild\compiler\src\codegen.cpp(6758) : warning C4267: 'initializing' : conversion from 'size_t' to 'unsigned int', possible loss of data
-c:\clay-autobuild\compiler\src\clay.hpp(896) : warning C4267: 'argument' : conversion from 'size_t' to 'int', possible loss of data
+c:\clay-autobuild\compiler\src\clay.hpp(900) : warning C4267: 'argument' : conversion from 'size_t' to 'int', possible loss of data
         C:\clay-autobuild\compiler\src\codegen.cpp(4342) : see reference to function template instantiation 'void clay::ensureArity<clay::FormalArgPtr>(const std::vector<_Ty> &,size_t)' being compiled
         with
         [
             _Ty=clay::FormalArgPtr
         ]
-c:\clay-autobuild\compiler\src\clay.hpp(896) : warning C4267: 'argument' : conversion from 'size_t' to 'int', possible loss of data
-c:\clay-autobuild\compiler\src\clay.hpp(896) : warning C4267: 'argument' : conversion from 'size_t' to 'int', possible loss of data
+c:\clay-autobuild\compiler\src\clay.hpp(900) : warning C4267: 'argument' : conversion from 'size_t' to 'int', possible loss of data
+c:\clay-autobuild\compiler\src\clay.hpp(900) : warning C4267: 'argument' : conversion from 'size_t' to 'int', possible loss of data
         C:\clay-autobuild\compiler\src\codegen.cpp(4343) : see reference to function template instantiation 'void clay::ensureArity<clay::ExprPtr>(const std::vector<_Ty> &,size_t)' being compiled
         with
         [
             _Ty=clay::ExprPtr
         ]
-c:\clay-autobuild\compiler\src\clay.hpp(896) : warning C4267: 'argument' : conversion from 'size_t' to 'int', possible loss of data
+c:\clay-autobuild\compiler\src\clay.hpp(900) : warning C4267: 'argument' : conversion from 'size_t' to 'int', possible loss of data
 [ 16%] [32mBuilding CXX object compiler/src/CMakeFiles/clay.dir/constructors.cpp.obj
 [0mconstructors.cpp
 [ 20%] [32mBuilding CXX object compiler/src/CMakeFiles/clay.dir/desugar.cpp.obj
@@ -186,51 +190,63 @@ C:\clay-autobuild\compiler\src\evaluator.cpp(912) : warning C4267: 'argument' : 
 C:\clay-autobuild\compiler\src\evaluator.cpp(1463) : warning C4267: 'argument' : conversion from 'size_t' to 'int', possible loss of data
 C:\clay-autobuild\compiler\src\evaluator.cpp(1463) : warning C4267: 'argument' : conversion from 'size_t' to 'int', possible loss of data
 C:\clay-autobuild\compiler\src\evaluator.cpp(1474) : warning C4267: 'initializing' : conversion from 'size_t' to 'unsigned int', possible loss of data
-C:\clay-autobuild\compiler\src\evaluator.cpp(2086) : warning C4267: 'argument' : conversion from 'size_t' to 'unsigned int', possible loss of data
-C:\clay-autobuild\compiler\src\evaluator.cpp(2088) : warning C4267: 'argument' : conversion from 'size_t' to 'int', possible loss of data
-C:\clay-autobuild\compiler\src\evaluator.cpp(2088) : warning C4267: 'argument' : conversion from 'size_t' to 'int', possible loss of data
-C:\clay-autobuild\compiler\src\evaluator.cpp(2108) : warning C4267: 'argument' : conversion from 'size_t' to 'unsigned int', possible loss of data
-C:\clay-autobuild\compiler\src\evaluator.cpp(2124) : warning C4267: 'argument' : conversion from 'size_t' to 'unsigned int', possible loss of data
-C:\clay-autobuild\compiler\src\evaluator.cpp(2126) : warning C4267: 'argument' : conversion from 'size_t' to 'int', possible loss of data
-C:\clay-autobuild\compiler\src\evaluator.cpp(2126) : warning C4267: 'argument' : conversion from 'size_t' to 'int', possible loss of data
-C:\clay-autobuild\compiler\src\evaluator.cpp(2138) : warning C4267: 'argument' : conversion from 'size_t' to 'unsigned int', possible loss of data
-C:\clay-autobuild\compiler\src\evaluator.cpp(2317) : warning C4267: 'argument' : conversion from 'size_t' to 'unsigned int', possible loss of data
-C:\clay-autobuild\compiler\src\evaluator.cpp(2390) : warning C4267: 'argument' : conversion from 'size_t' to 'unsigned int', possible loss of data
-C:\clay-autobuild\compiler\src\evaluator.cpp(2397) : warning C4267: 'argument' : conversion from 'size_t' to 'unsigned int', possible loss of data
-C:\clay-autobuild\compiler\src\evaluator.cpp(2402) : warning C4267: 'initializing' : conversion from 'size_t' to 'unsigned int', possible loss of data
-C:\clay-autobuild\compiler\src\evaluator.cpp(2419) : warning C4267: 'argument' : conversion from 'size_t' to 'unsigned int', possible loss of data
-C:\clay-autobuild\compiler\src\evaluator.cpp(2429) : warning C4267: 'argument' : conversion from 'size_t' to 'unsigned int', possible loss of data
-C:\clay-autobuild\compiler\src\evaluator.cpp(2434) : warning C4267: 'initializing' : conversion from 'size_t' to 'unsigned int', possible loss of data
-C:\clay-autobuild\compiler\src\evaluator.cpp(2454) : warning C4267: 'argument' : conversion from 'size_t' to 'unsigned int', possible loss of data
-C:\clay-autobuild\compiler\src\evaluator.cpp(2461) : warning C4267: 'argument' : conversion from 'size_t' to 'unsigned int', possible loss of data
-C:\clay-autobuild\compiler\src\evaluator.cpp(2466) : warning C4267: 'initializing' : conversion from 'size_t' to 'unsigned int', possible loss of data
-C:\clay-autobuild\compiler\src\evaluator.cpp(3558) : warning C4267: '=' : conversion from 'size_t' to 'clay::size32_t', possible loss of data
-C:\clay-autobuild\compiler\src\evaluator.cpp(3629) : warning C4267: 'argument' : conversion from 'size_t' to 'int', possible loss of data
-C:\clay-autobuild\compiler\src\evaluator.cpp(4227) : warning C4267: 'argument' : conversion from 'size_t' to 'unsigned int', possible loss of data
-C:\clay-autobuild\compiler\src\evaluator.cpp(4328) : warning C4267: 'argument' : conversion from 'size_t' to 'unsigned int', possible loss of data
-C:\clay-autobuild\compiler\src\evaluator.cpp(4353) : warning C4267: 'argument' : conversion from 'size_t' to 'unsigned int', possible loss of data
-C:\clay-autobuild\compiler\src\evaluator.cpp(4565) : warning C4267: 'argument' : conversion from 'size_t' to 'unsigned int', possible loss of data
-C:\clay-autobuild\compiler\src\evaluator.cpp(4576) : warning C4267: 'argument' : conversion from 'size_t' to 'unsigned int', possible loss of data
-C:\clay-autobuild\compiler\src\evaluator.cpp(4665) : warning C4267: '=' : conversion from 'size_t' to 'int', possible loss of data
-C:\clay-autobuild\compiler\src\evaluator.cpp(4671) : warning C4267: 'argument' : conversion from 'size_t' to 'int', possible loss of data
-C:\clay-autobuild\compiler\src\evaluator.cpp(4685) : warning C4267: 'argument' : conversion from 'size_t' to 'int', possible loss of data
+C:\clay-autobuild\compiler\src\evaluator.cpp(2087) : warning C4267: 'argument' : conversion from 'size_t' to 'unsigned int', possible loss of data
+C:\clay-autobuild\compiler\src\evaluator.cpp(2089) : warning C4267: 'argument' : conversion from 'size_t' to 'int', possible loss of data
+C:\clay-autobuild\compiler\src\evaluator.cpp(2089) : warning C4267: 'argument' : conversion from 'size_t' to 'int', possible loss of data
+C:\clay-autobuild\compiler\src\evaluator.cpp(2109) : warning C4267: 'argument' : conversion from 'size_t' to 'unsigned int', possible loss of data
+C:\clay-autobuild\compiler\src\evaluator.cpp(2125) : warning C4267: 'argument' : conversion from 'size_t' to 'unsigned int', possible loss of data
+C:\clay-autobuild\compiler\src\evaluator.cpp(2127) : warning C4267: 'argument' : conversion from 'size_t' to 'int', possible loss of data
+C:\clay-autobuild\compiler\src\evaluator.cpp(2127) : warning C4267: 'argument' : conversion from 'size_t' to 'int', possible loss of data
+C:\clay-autobuild\compiler\src\evaluator.cpp(2139) : warning C4267: 'argument' : conversion from 'size_t' to 'unsigned int', possible loss of data
+C:\clay-autobuild\compiler\src\evaluator.cpp(2318) : warning C4267: 'argument' : conversion from 'size_t' to 'unsigned int', possible loss of data
+C:\clay-autobuild\compiler\src\evaluator.cpp(2391) : warning C4267: 'argument' : conversion from 'size_t' to 'unsigned int', possible loss of data
+C:\clay-autobuild\compiler\src\evaluator.cpp(2394) : warning C4267: 'argument' : conversion from 'size_t' to 'int', possible loss of data
+C:\clay-autobuild\compiler\src\evaluator.cpp(2394) : warning C4267: 'argument' : conversion from 'size_t' to 'int', possible loss of data
+C:\clay-autobuild\compiler\src\evaluator.cpp(2397) : warning C4267: 'argument' : conversion from 'size_t' to 'int', possible loss of data
+C:\clay-autobuild\compiler\src\evaluator.cpp(2397) : warning C4267: 'argument' : conversion from 'size_t' to 'int', possible loss of data
+C:\clay-autobuild\compiler\src\evaluator.cpp(2404) : warning C4267: 'argument' : conversion from 'size_t' to 'unsigned int', possible loss of data
+C:\clay-autobuild\compiler\src\evaluator.cpp(2409) : warning C4267: 'initializing' : conversion from 'size_t' to 'unsigned int', possible loss of data
+C:\clay-autobuild\compiler\src\evaluator.cpp(2426) : warning C4267: 'argument' : conversion from 'size_t' to 'unsigned int', possible loss of data
+C:\clay-autobuild\compiler\src\evaluator.cpp(2429) : warning C4267: 'argument' : conversion from 'size_t' to 'int', possible loss of data
+C:\clay-autobuild\compiler\src\evaluator.cpp(2429) : warning C4267: 'argument' : conversion from 'size_t' to 'int', possible loss of data
+C:\clay-autobuild\compiler\src\evaluator.cpp(2432) : warning C4267: 'argument' : conversion from 'size_t' to 'int', possible loss of data
+C:\clay-autobuild\compiler\src\evaluator.cpp(2432) : warning C4267: 'argument' : conversion from 'size_t' to 'int', possible loss of data
+C:\clay-autobuild\compiler\src\evaluator.cpp(2442) : warning C4267: 'argument' : conversion from 'size_t' to 'unsigned int', possible loss of data
+C:\clay-autobuild\compiler\src\evaluator.cpp(2447) : warning C4267: 'initializing' : conversion from 'size_t' to 'unsigned int', possible loss of data
+C:\clay-autobuild\compiler\src\evaluator.cpp(2467) : warning C4267: 'argument' : conversion from 'size_t' to 'unsigned int', possible loss of data
+C:\clay-autobuild\compiler\src\evaluator.cpp(2470) : warning C4267: 'argument' : conversion from 'size_t' to 'int', possible loss of data
+C:\clay-autobuild\compiler\src\evaluator.cpp(2470) : warning C4267: 'argument' : conversion from 'size_t' to 'int', possible loss of data
+C:\clay-autobuild\compiler\src\evaluator.cpp(2473) : warning C4267: 'argument' : conversion from 'size_t' to 'int', possible loss of data
+C:\clay-autobuild\compiler\src\evaluator.cpp(2473) : warning C4267: 'argument' : conversion from 'size_t' to 'int', possible loss of data
+C:\clay-autobuild\compiler\src\evaluator.cpp(2480) : warning C4267: 'argument' : conversion from 'size_t' to 'unsigned int', possible loss of data
+C:\clay-autobuild\compiler\src\evaluator.cpp(2485) : warning C4267: 'initializing' : conversion from 'size_t' to 'unsigned int', possible loss of data
+C:\clay-autobuild\compiler\src\evaluator.cpp(3577) : warning C4267: '=' : conversion from 'size_t' to 'clay::size32_t', possible loss of data
+C:\clay-autobuild\compiler\src\evaluator.cpp(3648) : warning C4267: 'argument' : conversion from 'size_t' to 'int', possible loss of data
+C:\clay-autobuild\compiler\src\evaluator.cpp(4246) : warning C4267: 'argument' : conversion from 'size_t' to 'unsigned int', possible loss of data
+C:\clay-autobuild\compiler\src\evaluator.cpp(4347) : warning C4267: 'argument' : conversion from 'size_t' to 'unsigned int', possible loss of data
+C:\clay-autobuild\compiler\src\evaluator.cpp(4372) : warning C4267: 'argument' : conversion from 'size_t' to 'unsigned int', possible loss of data
+C:\clay-autobuild\compiler\src\evaluator.cpp(4584) : warning C4267: 'argument' : conversion from 'size_t' to 'unsigned int', possible loss of data
+C:\clay-autobuild\compiler\src\evaluator.cpp(4595) : warning C4267: 'argument' : conversion from 'size_t' to 'unsigned int', possible loss of data
+C:\clay-autobuild\compiler\src\evaluator.cpp(4684) : warning C4267: '=' : conversion from 'size_t' to 'int', possible loss of data
+C:\clay-autobuild\compiler\src\evaluator.cpp(4690) : warning C4267: 'argument' : conversion from 'size_t' to 'int', possible loss of data
 C:\clay-autobuild\compiler\src\evaluator.cpp(4704) : warning C4267: 'argument' : conversion from 'size_t' to 'int', possible loss of data
-C:\clay-autobuild\compiler\src\evaluator.cpp(4720) : warning C4267: 'argument' : conversion from 'size_t' to 'int', possible loss of data
-C:\clay-autobuild\compiler\src\evaluator.cpp(4727) : warning C4267: 'initializing' : conversion from 'size_t' to 'unsigned int', possible loss of data
-c:\clay-autobuild\compiler\src\clay.hpp(896) : warning C4267: 'argument' : conversion from 'size_t' to 'int', possible loss of data
-        C:\clay-autobuild\compiler\src\evaluator.cpp(2499) : see reference to function template instantiation 'void clay::ensureArity<clay::FormalArgPtr>(const std::vector<_Ty> &,size_t)' being compiled
+C:\clay-autobuild\compiler\src\evaluator.cpp(4723) : warning C4267: 'argument' : conversion from 'size_t' to 'int', possible loss of data
+C:\clay-autobuild\compiler\src\evaluator.cpp(4739) : warning C4267: 'argument' : conversion from 'size_t' to 'int', possible loss of data
+C:\clay-autobuild\compiler\src\evaluator.cpp(4746) : warning C4267: 'initializing' : conversion from 'size_t' to 'unsigned int', possible loss of data
+c:\clay-autobuild\compiler\src\clay.hpp(900) : warning C4267: 'argument' : conversion from 'size_t' to 'int', possible loss of data
+        C:\clay-autobuild\compiler\src\evaluator.cpp(2518) : see reference to function template instantiation 'void clay::ensureArity<clay::FormalArgPtr>(const std::vector<_Ty> &,size_t)' being compiled
         with
         [
             _Ty=clay::FormalArgPtr
         ]
-c:\clay-autobuild\compiler\src\clay.hpp(896) : warning C4267: 'argument' : conversion from 'size_t' to 'int', possible loss of data
-c:\clay-autobuild\compiler\src\clay.hpp(896) : warning C4267: 'argument' : conversion from 'size_t' to 'int', possible loss of data
-        C:\clay-autobuild\compiler\src\evaluator.cpp(2500) : see reference to function template instantiation 'void clay::ensureArity<clay::ExprPtr>(const std::vector<_Ty> &,size_t)' being compiled
+c:\clay-autobuild\compiler\src\clay.hpp(900) : warning C4267: 'argument' : conversion from 'size_t' to 'int', possible loss of data
+c:\clay-autobuild\compiler\src\clay.hpp(900) : warning C4267: 'argument' : conversion from 'size_t' to 'int', possible loss of data
+        C:\clay-autobuild\compiler\src\evaluator.cpp(2519) : see reference to function template instantiation 'void clay::ensureArity<clay::ExprPtr>(const std::vector<_Ty> &,size_t)' being compiled
         with
         [
             _Ty=clay::ExprPtr
         ]
-c:\clay-autobuild\compiler\src\clay.hpp(896) : warning C4267: 'argument' : conversion from 'size_t' to 'int', possible loss of data
+c:\clay-autobuild\compiler\src\clay.hpp(900) : warning C4267: 'argument' : conversion from 'size_t' to 'int', possible loss of data
 [ 37%] [32mBuilding CXX object compiler/src/CMakeFiles/clay.dir/externals.cpp.obj
 [0mexternals.cpp
 C:\clay-autobuild\compiler\src\externals.cpp(351) : warning C4267: 'return' : conversion from 'size_t' to 'int', possible loss of data
@@ -267,16 +283,16 @@ C:\clay-autobuild\compiler\src\invoketables.cpp(256) : warning C4267: 'initializ
 [0mloader.cpp
 [ 66%] [32mBuilding CXX object compiler/src/CMakeFiles/clay.dir/main.cpp.obj
 [0mmain.cpp
-C:\clay-autobuild\compiler\src\main.cpp(144) : warning C4800: 'llvm::CodeGenOpt::Level' : forcing value to bool 'true' or 'false' (performance warning)
+C:\clay-autobuild\compiler\src\main.cpp(224) : warning C4800: 'llvm::CodeGenOpt::Level' : forcing value to bool 'true' or 'false' (performance warning)
 [ 70%] [32mBuilding CXX object compiler/src/CMakeFiles/clay.dir/matchinvoke.cpp.obj
 [0mmatchinvoke.cpp
-C:\clay-autobuild\compiler\src\matchinvoke.cpp(108) : warning C4267: 'argument' : conversion from 'size_t' to 'unsigned int', possible loss of data
-C:\clay-autobuild\compiler\src\matchinvoke.cpp(108) : warning C4267: 'argument' : conversion from 'size_t' to 'unsigned int', possible loss of data
-C:\clay-autobuild\compiler\src\matchinvoke.cpp(112) : warning C4267: 'argument' : conversion from 'size_t' to 'unsigned int', possible loss of data
-C:\clay-autobuild\compiler\src\matchinvoke.cpp(112) : warning C4267: 'argument' : conversion from 'size_t' to 'unsigned int', possible loss of data
-C:\clay-autobuild\compiler\src\matchinvoke.cpp(115) : warning C4267: 'initializing' : conversion from 'size_t' to 'unsigned int', possible loss of data
-C:\clay-autobuild\compiler\src\matchinvoke.cpp(126) : warning C4267: 'argument' : conversion from 'size_t' to 'unsigned int', possible loss of data
-C:\clay-autobuild\compiler\src\matchinvoke.cpp(177) : warning C4267: '=' : conversion from 'size_t' to 'unsigned int', possible loss of data
+C:\clay-autobuild\compiler\src\matchinvoke.cpp(106) : warning C4267: 'argument' : conversion from 'size_t' to 'unsigned int', possible loss of data
+C:\clay-autobuild\compiler\src\matchinvoke.cpp(106) : warning C4267: 'argument' : conversion from 'size_t' to 'unsigned int', possible loss of data
+C:\clay-autobuild\compiler\src\matchinvoke.cpp(110) : warning C4267: 'argument' : conversion from 'size_t' to 'unsigned int', possible loss of data
+C:\clay-autobuild\compiler\src\matchinvoke.cpp(110) : warning C4267: 'argument' : conversion from 'size_t' to 'unsigned int', possible loss of data
+C:\clay-autobuild\compiler\src\matchinvoke.cpp(113) : warning C4267: 'initializing' : conversion from 'size_t' to 'unsigned int', possible loss of data
+C:\clay-autobuild\compiler\src\matchinvoke.cpp(124) : warning C4267: 'argument' : conversion from 'size_t' to 'unsigned int', possible loss of data
+C:\clay-autobuild\compiler\src\matchinvoke.cpp(179) : warning C4267: '=' : conversion from 'size_t' to 'unsigned int', possible loss of data
 [ 75%] [32mBuilding CXX object compiler/src/CMakeFiles/clay.dir/objects.cpp.obj
 [0mobjects.cpp
 [ 79%] [32mBuilding CXX object compiler/src/CMakeFiles/clay.dir/parachute.cpp.obj
